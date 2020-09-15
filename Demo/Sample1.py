@@ -3,7 +3,8 @@ import time
 from selenium.webdriver.common.keys import Keys
 
 print("sample test case started")
-driver = webdriver.Chrome(r"C:\Users\Patrick.Onokwai\PycharmProjects\SeleniumProject2\Browsers\chromedriver.exe")
+driver = webdriver.Chrome()
+#driver = webdriver.Chrome(r"C:\Users\Patrick.Onokwai\PycharmProjects\SeleniumProject2\Browsers\chromedriver.exe")
 #driver = webdriver.Chrome()
 # driver = webdriver.Firefox()
 #driver=webdriver.ie()
