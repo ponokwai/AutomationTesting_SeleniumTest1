@@ -19,6 +19,7 @@ driver.find_element_by_css_selector("#job-title").send_keys("Software Engineer")
 driver.find_element_by_css_selector("#radio-button-3").click()
 driver.find_element_by_css_selector("div.input-group:nth-child(9) > div:nth-child(2)").click()
 driver.find_element_by_css_selector("#select-menu > option:nth-child(5)").click()
+driver.find_element_by_css_selector("#checkbox-1").click()
 driver.find_element_by_css_selector("#datepicker").click()
 driver.find_element_by_css_selector("td.today").click()
 
